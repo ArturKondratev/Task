@@ -53,9 +53,9 @@ class CartView: UIView {
             collectionView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 8),
             collectionView.leftAnchor.constraint(equalTo: leftAnchor, constant: 16),
             collectionView.rightAnchor.constraint(equalTo: rightAnchor, constant: -16),
-            collectionView.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor),
+            collectionView.bottomAnchor.constraint(equalTo: payButton.topAnchor, constant: -8),
             
-            payButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -16),
+            payButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -8),
             payButton.leftAnchor.constraint(equalTo: leftAnchor, constant: 16),
             payButton.rightAnchor.constraint(equalTo: rightAnchor, constant: -16),
             payButton.heightAnchor.constraint(equalToConstant: 48)

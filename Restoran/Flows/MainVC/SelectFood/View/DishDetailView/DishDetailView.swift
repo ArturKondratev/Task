@@ -117,6 +117,7 @@ class DishDetailView {
                    on viewController: SelectFoodViewController) {
         
         guard let targetView = viewController.view else { return }
+        foodImage.image = nil
         
         //MARK: - ItemSize
         let alertViewWidth = targetView.frame.size.width - 32

@@ -66,7 +66,7 @@
 		488FA3D82A4BE3EA00622AB5 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		488FA3DA2A4BED1B00622AB5 /* PlusMinusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMinusView.swift; sourceTree = "<group>"; };
 		488FA3E12A4C062C00622AB5 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
-		488FA3E42A4CA0FB00622AB5 /* Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488FA3E42A4CA0FB00622AB5 /* Restoran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restoran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488FA3E52A4CABC700622AB5 /* SearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarCell.swift; sourceTree = "<group>"; };
 		488FA3E72A4CCC9300622AB5 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		489022202A4EC02600651301 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
@@ -159,12 +159,12 @@
 		486552CF29DA9E7000AFB1D3 = {
 			isa = PBXGroup;
 			children = (
-				486552DA29DA9E7000AFB1D3 /* Pizza */,
-				488FA3E42A4CA0FB00622AB5 /* Pizza.app */,
+				486552DA29DA9E7000AFB1D3 /* Restoran */,
+				488FA3E42A4CA0FB00622AB5 /* Restoran.app */,
 			);
 			sourceTree = "<group>";
 		};
-		486552DA29DA9E7000AFB1D3 /* Pizza */ = {
+		486552DA29DA9E7000AFB1D3 /* Restoran */ = {
 			isa = PBXGroup;
 			children = (
 				486552FC29DAB23400AFB1D3 /* Resources */,
@@ -172,7 +172,7 @@
 				485645D029DBEF8700F8734A /* Model */,
 				486552F929DAB1F500AFB1D3 /* Flows */,
 			);
-			path = Pizza;
+			path = Restoran;
 			sourceTree = "<group>";
 		};
 		486552F929DAB1F500AFB1D3 /* Flows */ = {
@@ -386,9 +386,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		486552D729DA9E7000AFB1D3 /* Pizza */ = {
+		486552D729DA9E7000AFB1D3 /* Restoran */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 486552EC29DA9E7100AFB1D3 /* Build configuration list for PBXNativeTarget "Pizza" */;
+			buildConfigurationList = 486552EC29DA9E7100AFB1D3 /* Build configuration list for PBXNativeTarget "Restoran" */;
 			buildPhases = (
 				486552D429DA9E7000AFB1D3 /* Sources */,
 				486552D529DA9E7000AFB1D3 /* Frameworks */,
@@ -398,9 +398,9 @@
 			);
 			dependencies = (
 			);
-			name = Pizza;
+			name = Restoran;
 			productName = Pizza;
-			productReference = 488FA3E42A4CA0FB00622AB5 /* Pizza.app */;
+			productReference = 488FA3E42A4CA0FB00622AB5 /* Restoran.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -418,7 +418,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 486552D329DA9E7000AFB1D3 /* Build configuration list for PBXProject "Pizza" */;
+			buildConfigurationList = 486552D329DA9E7000AFB1D3 /* Build configuration list for PBXProject "Restoran" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -431,7 +431,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				486552D729DA9E7000AFB1D3 /* Pizza */,
+				486552D729DA9E7000AFB1D3 /* Restoran */,
 			);
 		};
 /* End PBXProject section */
@@ -627,7 +627,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M95S853Q8R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Pizza/Resources/Info.plist;
+				INFOPLIST_FILE = Restoran/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -656,7 +656,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M95S853Q8R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Pizza/Resources/Info.plist;
+				INFOPLIST_FILE = Restoran/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -679,7 +679,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		486552D329DA9E7000AFB1D3 /* Build configuration list for PBXProject "Pizza" */ = {
+		486552D329DA9E7000AFB1D3 /* Build configuration list for PBXProject "Restoran" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				486552EA29DA9E7100AFB1D3 /* Debug */,
@@ -688,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		486552EC29DA9E7100AFB1D3 /* Build configuration list for PBXNativeTarget "Pizza" */ = {
+		486552EC29DA9E7100AFB1D3 /* Build configuration list for PBXNativeTarget "Restoran" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				486552ED29DA9E7100AFB1D3 /* Debug */,

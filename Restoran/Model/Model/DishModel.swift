@@ -24,7 +24,7 @@ struct ServerDish: Codable {
     }
 }
 
-struct Dish: Codable, Equatable {
+struct Dish: Codable {
     let id: Int
     let name: String
     let price, weight: Int

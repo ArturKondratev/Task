@@ -31,10 +31,8 @@ class FoodCaretaker: FoodCaretakerProtocol {
         caretakerQueue.async {
             var list = self.retrieveDishs()
             
-            if list.contains(dish) {
-                if let i = list.firstIndex(where: { $0.id == dish.id }) {
-                    list[i].count += 1
-                }
+            if let i = list.firstIndex(where: { $0.id == dish.id }) {
+                list[i].count += 1
             } else {
                 list.append(dish)
             }
