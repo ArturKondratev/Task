@@ -22,7 +22,7 @@
   + Сохранение товаров 
 
 <h1 align="center">
-    <img src="https://github.com/ArturKondratev/Task---Restoran/blob/main/Screen/s1.png" width="250"> <img src="https://github.com/ArturKondratev/Task---Restoran/blob/main/Screen/s2.png" width="250"> <img src="https://github.com/ArturKondratev/Task---Restoran/blob/main/Screen/s2.png" width="250">
+    <img src="https://github.com/ArturKondratev/Task---Restoran/blob/main/Screen/s1.png" width="250"> <img src="https://github.com/ArturKondratev/Task---Restoran/blob/main/Screen/s2.png" width="250"> <img src="https://github.com/ArturKondratev/Task---Restoran/blob/main/Screen/s3.png" width="250">
 </h1>
 
 <h1 align="center">
